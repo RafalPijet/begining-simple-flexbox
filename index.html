@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Flexbox">
+    <meta name="author" content="Rafał Pijet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="flex col-12 flex-end">
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+                <li><a href="#">Link4</a></li>
+                <li><a href="#">Link5</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="jumbotron">
+        <div class="container flex-center flex-center-align">
+            <h1>Welcome in my world</h1>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container flex-center">
+            <div class="flex col-12 flex-start">
+                <img class="photo" src="https://images.pexels.com/photos/39855/lamborghini-brno-racing-car-automobiles-39855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                <img class="photo" src="https://images.pexels.com/photos/241316/pexels-photo-241316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            </div>
+            <div class="flex col-12 flex-around">
+                <img class="photo" src="https://images.pexels.com/photos/831475/pexels-photo-831475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                <img class="photo" src="https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            </div>
+            <div class="flex col-12 flex-end">
+                <img class="photo" src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                <img class="photo" src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            </div>
+        </div>
+    </section>
+    <section class="boxes">
+        <div class="container flex-center">
+            <div class="row flex col-12 flex-center-align flex-around">
+                <div class="box flex-self-start">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Nunc consequat maximus quam ac bibendum. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor. Cras tempor eros tempor ipsum consectetur, at rhoncus massa commodo.</p>
+                </div>
+                <div class="box flex-self-end">
+                    <p>Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Nunc consequat maximus quam ac bibendum. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor. Cras tempor eros tempor ipsum consectetur, at rhoncus massa commodo.</p>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula sit amet neque. Nunc consequat maximus quam ac bibendum. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor.</p>
+                </div>
+                <div class="box flex-self-start">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Nunc consequat maximus quam ac bibendum. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor. Cras tempor eros tempor ipsum consectetur, at rhoncus massa commodo.</p>
+                </div>
+            </div>
+            <div class="row flex col-12">
+                <div class="flex col-9 flex-between flex-end-align">
+                    <div class="box">
+                        <p> Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Nunc consequat maximus quam ac bibendum. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor.</p>
+                    </div>
+                    <div class="box flex-self-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor. Cras tempor eros tempor ipsum consectetur, at rhoncus massa commodo.</p>
+                    </div>
+                    <div class="box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Cras tempor eros tempor ipsum consectetur, at rhoncus massa commodo.</p>
+                    </div>
+                </div>
+                <div class="flex col-3 flex-center flex-center-align">
+                    <div class="box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Nunc consequat maximus quam ac bibendum. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor. Cras tempor eros tempor ipsum consectetur, at rhoncus massa commodo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex col-12 flex-column flex-center-align flex-center">
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Nunc consequat maximus quam ac bibendum. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor. Cras tempor eros tempor ipsum consectetur, at rhoncus massa commodo.</p>
+                </div>
+                <div class="box">
+                    <p> Proin enim turpis, sollicitudin eu luctus ut, vehicula sit amet neque. Nunc consequat maximus quam ac bibendum. Fusce et diam bibendum, vestibulum massa non, rhoncus tortor. Cras tempor eros tempor ipsum consectetur, at rhoncus massa commodo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="test flex col-12">
+                <p class="text-right">&copy by LopezPL</p>
+                <p class="text-center">Very Big Company</p>
+                <p class="text-left">01-293 Wachock-City, Piegowata 13</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header ul li a, header ul li {
+    text-decoration: none;
+    font-size: 32px;
+    list-style-type: none;
+    margin: 0 10px;
+    color: #ffffff;
+    justify-content: flex-end;
+}
+
+footer {
+    color: #fffc63;
+    text-shadow: 5px 5px 5px #ffc532;
+}
+
+footer div p:first-child, footer div p:last-child {flex-grow: 1;}
+
+footer div p:nth-child(2) {flex-grow: 2}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-1 {flex: 8.333%;}
+.col-2 {flex: 16.667%;}
+.col-3 {flex: 25%;}
+.col-4 {flex: 33.333%;}
+.col-5 {flex: 41.667%;}
+.col-6 {flex: 50%;}
+.col-7 {flex: 58.333%;}
+.col-8 {flex: 66.667%;}
+.col-9 {flex: 75%;}
+.col-10 {flex: 83.333%;}
+.col-11 {flex: 91.667%;}
+.col-12 {flex: 100%;}
+
+.flex {display: flex;}
+
+.flex-center {justify-content: center;}
+
+.flex-start {justify-content: flex-start;}
+
+.flex-end {justify-content: flex-end;}
+
+.flex-around {justify-content: space-around;}
+
+.flex-between {justify-content: space-between;}
+
+.flex-center-align {align-items: center;}
+
+.flex-end-align {align-items: flex-end;}
+
+.flex-self-start {align-self: flex-start;}
+
+.flex-self-end {align-self: flex-end;}
+
+.flex-self-center {align-self: center;}
+
+.flex-column {flex-direction: column;}
+
+.text-center {text-align: center;}
+
+.text-left {text-align: left;}
+
+.text-right {text-align: right;}
+
+.boxes .box {
+    margin: 5px;
+    width: 200px;
+    align-items: center;
+}
+
+.gallery .photo {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.jumbotron {
+    background-image: url(https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-size: 3rem;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.jumbotron div {height: 100vh;}
+
+.gallery {margin: 20px 0;}
+
+.boxes {background-color: #ffffff;}
+
+.boxes > div {height: 100vh;}
+
+.boxes p {
+    text-align: center;
+    padding: 10px;
+}
+
+.boxes .row:first-child {background-color: #70a1ff;}
+
+.boxes .row:nth-child(2) {background-color: #4b7bec;}
+
+.boxes .row:last-child {background-color: #7ed6df}
+
+
